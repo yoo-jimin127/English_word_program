@@ -35,6 +35,20 @@
 ### file_manage.c 파일 관리 소스코드
 --------
  ##### 노드 생성 함수 makeNode
+  * 메모리 할당 해주고 next, prev 초기화시킨 상태
+  ```
+  Node *makeNode (char *fileName) {
+      Node *newNode;
+      
+      newNode = (Node*)malloc(sizeof(Node));
+      newNode -> next = NULL;
+      newNode -> prev = NULL;
+      
+      return newNode;
+      }
+      ```
+      텍스트 파일 읽어오면 될 것 같음 -> 
+  
  
  ##### 노드에 단어 추가하는 함수 addNode
   * *엎어야할 것 같은 느낌... 연결리스트 구조체부터 만들어놓고 해야할 것 같은데 이상함..
