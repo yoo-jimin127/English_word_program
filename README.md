@@ -5,6 +5,10 @@
   main_func.c
     * 구현 방향 :
       * 메뉴 화면 출력
+        * user 입력 값에 따라 switch문으로 case 1~5
+          * first_func.c~fourth_func.c의 choose_setting1~4() 함수 호출
+            * choose_setting 함수 : 기능에서 사용할 파일명, 속도, 출력방식 등에 대한 설정 
+    메뉴 화면 출력
       * user 입력값에 따라 switch문으로 case 1~5
         * 각 case : first_func.c ~ fourth_func.c 호출
           * first_func.c ~ fourth_func.c의 choose_setting1~4() 함수 호출
