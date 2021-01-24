@@ -61,6 +61,7 @@
   2. 비어있지 않은 리스트의 경우 
   ![image](https://user-images.githubusercontent.com/66112716/105630494-ed06a480-5e8c-11eb-81bc-8d1255d6af57.png)
 
+![image](https://user-images.githubusercontent.com/66112716/105630712-0fe58880-5e8e-11eb-830b-e51ed72ddc84.png)
 
 
 ##### 리스트 초기화 함수 initList()
