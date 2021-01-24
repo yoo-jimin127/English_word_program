@@ -58,7 +58,9 @@
   * 먼저 리스트 초기화시켜주는 init 함수 만들어야 할 것 같음
   1. 비어있는 리스트의 경우 (head만 존재 : head -> next에 삽입하는 노드 넣기)
 
-  2. 비어있지 않은 리스트의 경우 ()
+  2. 비어있지 않은 리스트의 경우 
+  ![image](https://user-images.githubusercontent.com/66112716/105630494-ed06a480-5e8c-11eb-81bc-8d1255d6af57.png)
+
 
 
 ##### 리스트 초기화 함수 initList()
