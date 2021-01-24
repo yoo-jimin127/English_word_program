@@ -103,4 +103,8 @@
   단어장 관리의 세부 메뉴를 main_func.c와 같은 방법으로 입력받아 처리
 ### function 5. 프로그램 종료
 -----------
- 구현 완료 (system("clear"); return 0;
+ 구현 완료 
+ ```
+ (system("clear"); 
+ return 0;
+ ```
