@@ -8,9 +8,9 @@
         * user 입력값에 따라 switch문으로 case 1~5 <br>
           * 각 case : first_func.c ~ fourth_func.c 호출 <br>
             * first_func.c ~ fourth_func.c의 choose_setting1~4() 함수 호출 <br>
-              * chhose_setting 함수 : 기능에서 사용할 파일명, 속도, 출력 방식 등에 대한 설정 <br>
+              * choose_setting 함수 : 기능에서 사용할 파일명, 속도, 출력 방식 등에 대한 설정 <br>
+              
   **화면 구현 완료, switch문에 연결되는 각 case 함수 정의 다 해놓고 최종으로 확인**
-
 ### project1.h 헤더파일
 --------
  - 헤더파일 내용 :
