@@ -76,6 +76,8 @@
  sprintf(selectedFile, "%d.dic", day_file); // sprintf()함수로 문자열배열에 서식과 함께 저장됨
  ```
   * 연결리스트에서 해당 파일명을 찾는 작업 -> 자료구조 findNode() 함수와 동일한 구조..!?
+  ![image](https://user-images.githubusercontent.com/66112716/105631887-06f7b580-5e94-11eb-8c6d-686e0a7e41ed.png)
+  
   
 ### fuction 1. 영어 단어 맞추기
 --------
