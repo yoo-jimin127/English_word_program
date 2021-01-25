@@ -36,7 +36,7 @@
 
 ### file_manage.c 파일 관리 소스코드
 --------
- ##### 노드 생성 함수 makeNode()
+ ##### 노드 생성 함수 makeNode() : 구현 완료
   * 메모리 할당 해주고 next, prev 초기화시킨 상태
   ```
   Node *makeNode (char *fileName) {
@@ -55,8 +55,8 @@
  텍스트 파일 이름 읽어오기 : 인자로 받은 Node의 구조체 멤버 fileName strcpy()로 불러와 newNode->fileName에 저장
   
  
- ##### 노드에 단어 추가하는 함수 addNode()
-  * 먼저 리스트 초기화시켜주는 init 함수 만들어야 할 것 같음
+ ##### 노드에 단어 추가하는 함수 addNode() : 구현 완료
+  * ~~먼저 리스트 초기화시켜주는 init 함수 만들어야 할 것 같음~~
   1. 비어있는 리스트의 경우 (head만 존재 : head -> next에 삽입하는 노드 넣기)
 
   2. 비어있지 않은 리스트의 경우 
